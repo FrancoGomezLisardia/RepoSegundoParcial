@@ -32,4 +32,9 @@ public class topicos {
 		int[] frame= {a,b};
 		return frame;
 	}
+
+	public static   int sumaTresFrames( int[] primerFrame,int[] segudnoFrame,int[] tercerFrame ) {
+		
+		return primerFrame[1]+primerFrame[2]+segudnoFrame[1]+segudnoFrame[2]+tercerFrame[1]+tercerFrame[2];
+	}
 	}

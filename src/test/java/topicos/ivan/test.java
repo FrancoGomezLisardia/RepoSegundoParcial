@@ -63,4 +63,16 @@ public class test {
 
         assertArrayEquals(frameEsperado, frameResultado);
     }
+	@Test
+	 public void sumaTresFramesTest() {
+			topicos topico = new topicos();
+			
+	        int[] primerFrame = {2,3};
+	        int[] segudnoFrame = {10,0};
+	        int[] tercerFrame = {10,0};
+	        
+	        int suma=topicos.sumaTresFrames(primerFrame,segudnoFrame,tercerFrame);
+
+	        assertEquals(25, suma);
+	    }
 }
