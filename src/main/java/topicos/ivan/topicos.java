@@ -3,8 +3,13 @@ package topicos.ivan;
 public class topicos {
 
 	public int puntoFramePleno(int i, int j, int k) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return i+j+k;
+	}
+
+	public int mostrarPrimerTiro(int i) {
+		
+		return i;
 	}
 
 }
