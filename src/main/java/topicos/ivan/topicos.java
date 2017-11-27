@@ -18,15 +18,11 @@ public class topicos {
 	}
 	
 	public boolean reconocerFrame() {
-		int frame []= {};
-		frame[1]=10;
-		frame[2]=9;
-		frame[3]=8;
+		int frame []= {10,9,8};
+		boolean resultado=false;
 		if (frame[1]==10) {
-			return true;
-		}else {
-			return false;
+			resultado=true;
 		}
-	}
-
+          return resultado;
 }
+	}
