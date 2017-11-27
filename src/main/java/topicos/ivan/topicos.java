@@ -17,7 +17,7 @@ public class topicos {
 		return primerTiro+segundoTiro;
 	}
 	
-	public boolean reconocerFrame() {
+	public boolean reconocerFramePleno() {
 		int frame []= {10,9,8};
 		boolean resultado=false;
 		if (frame[1]==10) {
@@ -25,4 +25,9 @@ public class topicos {
 		}
           return resultado;
 }
+
+	public boolean contabilizarJuegoPlenosContinuos() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	}

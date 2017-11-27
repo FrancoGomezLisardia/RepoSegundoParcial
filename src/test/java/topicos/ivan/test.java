@@ -45,10 +45,17 @@ public class test {
 	@Test
 	public void reconocerFrameTest() {
 		topicos topico = new topicos();
-		boolean result=topico.reconocerFrame();
+		boolean result=topico.reconocerFramePleno();
 		assertTrue(true);
 		
 	}
 	
+	@Test
+	public void contabilizarJuegoPlenosContinuosTest() {
+		topicos topico = new topicos();
+		boolean result=topico.contabilizarJuegoPlenosContinuos();
+		assertTrue(true);
+		
+	}
 	
 }
