@@ -29,4 +29,16 @@ public class test {
 		
 		assertEquals(esperado, resulta);
 	}
+	
+	@Test
+	public void TestSegundoTiro() {
+		topicos puntaje = new topicos();
+		
+		int PrimerTiro=5;
+		int SegundoTiro=5;
+		int result= puntaje.puntajePrimerYSegundoTiro(PrimerTiro,SegundoTiro);
+		int esperado = 10;
+		
+		assertEquals(esperado, result);
+	}
 }

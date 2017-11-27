@@ -7,9 +7,14 @@ public class topicos {
 		return i+j+k;
 	}
 
-	public int mostrarPrimerTiro(int i) {
+	public int mostrarPrimerTiro(int primerTiro) {
 		
-		return i;
+		return primerTiro;
+	}
+
+	public int puntajePrimerYSegundoTiro(int primerTiro, int segundoTiro) {
+		
+		return primerTiro+segundoTiro;
 	}
 
 }
