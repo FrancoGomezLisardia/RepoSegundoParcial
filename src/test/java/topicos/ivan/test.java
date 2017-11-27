@@ -49,13 +49,18 @@ public class test {
 		assertTrue(true);
 		
 	}
-	
+
 	@Test
 	public void contabilizarJuegoPlenosContinuosTest() {
-		topicos topico = new topicos();
-		boolean result=topico.contabilizarJuegoPlenosContinuos();
-		assertTrue(true);
 		
 	}
-	
+	@Test
+    public void crearFrmaeTest() {
+		topicos topico = new topicos();
+		
+        int[] frameEsperado = {5,3};
+        int[] frameResultado  = topico.crearFrame(5,8);
+
+        assertArrayEquals(frameEsperado, frameResultado);
+    }
 }

@@ -27,7 +27,12 @@ public class topicos {
 }
 
 	public boolean contabilizarJuegoPlenosContinuos() {
-		// TODO Auto-generated method stub
+		
 		return false;
+	}
+
+	public int[] crearFrame(int a , int b) {
+		int[] frame= {a,b};
+		return frame;
 	}
 	}
