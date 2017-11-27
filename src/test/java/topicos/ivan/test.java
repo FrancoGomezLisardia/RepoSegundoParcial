@@ -59,7 +59,7 @@ public class test {
 		topicos topico = new topicos();
 		
         int[] frameEsperado = {5,3};
-        int[] frameResultado  = topico.crearFrame(5,8);
+        int[] frameResultado  = topico.crearFrame(5,3);
 
         assertArrayEquals(frameEsperado, frameResultado);
     }

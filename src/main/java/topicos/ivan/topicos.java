@@ -26,10 +26,7 @@ public class topicos {
           return resultado;
 }
 
-	public boolean contabilizarJuegoPlenosContinuos() {
-		
-		return false;
-	}
+	
 
 	public int[] crearFrame(int a , int b) {
 		int[] frame= {a,b};
