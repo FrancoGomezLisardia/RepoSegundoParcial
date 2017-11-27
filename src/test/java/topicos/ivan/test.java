@@ -66,12 +66,9 @@ public class test {
 	@Test
 	 public void sumaTresFramesTest() {
 			topicos topico = new topicos();
-			
-	        int[] primerFrame = {2,3};
-	        int[] segudnoFrame = {10,0};
-	        int[] tercerFrame = {10,0};
+		
 	        
-	        int suma=topicos.sumaTresFrames(primerFrame,segudnoFrame,tercerFrame);
+	        int suma=topicos.sumaTresFrames();
 
 	        assertEquals(25, suma);
 	    }
