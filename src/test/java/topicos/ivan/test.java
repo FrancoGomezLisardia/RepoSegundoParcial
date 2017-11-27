@@ -31,7 +31,7 @@ public class test {
 	}
 	
 	@Test
-	public void TestSegundoTiro() {
+	public void TestPuntosPrimeroySegundoTiro() {
 		topicos puntaje = new topicos();
 		
 		int PrimerTiro=5;
@@ -41,4 +41,14 @@ public class test {
 		
 		assertEquals(esperado, result);
 	}
+	
+	@Test
+	public void reconocerFrameTest() {
+		topicos topico = new topicos();
+		boolean result=topico.reconocerFrame();
+		assertEquals(result, false);
+		
+	}
+	
+	
 }

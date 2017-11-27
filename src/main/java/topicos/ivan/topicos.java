@@ -16,5 +16,17 @@ public class topicos {
 		
 		return primerTiro+segundoTiro;
 	}
+	
+	public boolean reconocerFrame() {
+		int frame []= {};
+		frame[1]=10;
+		frame[2]=9;
+		frame[3]=8;
+		if (frame[1]==10) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 
 }
